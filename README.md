@@ -70,4 +70,4 @@ facial-recognition/
 
 ## Auteur
 
-Aristide Portal-Hadancourt
+Aristide Portal-Hadancourt - Mai 2026
