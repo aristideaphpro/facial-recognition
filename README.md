@@ -60,11 +60,13 @@ http://127.0.0.1:5001
 
 ## Structure du projet
 
+```
 facial-recognition/
 ├── main.py              # Code principal
 ├── requirements.txt     # Dépendances Python
 ├── README.md            # Documentation
 └── visages_connus/      # À créer manuellement — photos des personnes à reconnaître
+```
 
 ## Auteur
 
