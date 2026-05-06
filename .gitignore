@@ -1,0 +1,6 @@
+venv/
+notes/
+visages_connus/
+images/
+__pycache__/
+*.pyc.DS_Store
