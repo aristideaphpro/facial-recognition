@@ -1,7 +1,7 @@
 # Système de Reconnaissance Faciale
 
 Système de reconnaissance faciale en temps réel développé en Python. 
-Il identifie et authentifie des visages à partir d'un flux vidéo webcam, 
+Il identifie et authentifie des visages connus à partir d'un flux vidéo webcam, 
 accessible via un navigateur web.
 
 ## Fonctionnalités
@@ -37,7 +37,12 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-4. Ajouter des photos dans le dossier `visages_connus/` :
+4. Créer le dossier `visages_connus/` à la racine du projet :
+```bash
+mkdir visages_connus
+```
+
+5. Ajouter des photos dans un dossier nommé `visages_connus/` :
 - Une photo par personne
 - Nommer chaque photo avec le prénom de la personne (ex: `aristide.jpg`)
 
@@ -59,7 +64,7 @@ facial-recognition/
 ├── main.py              # Code principal
 ├── requirements.txt     # Dépendances Python
 ├── README.md            # Documentation
-└── visages_connus/      # Photos des personnes connues (ignoré par Git)
+└── visages_connus/      # À créer manuellement — photos des personnes à reconnaître
 
 ## Auteur
 
